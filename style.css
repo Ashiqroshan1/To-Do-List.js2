@@ -114,3 +114,55 @@ ul li span:hover{
     background-color: #edeef0;
 }
 
+/* Media Queries for Responsiveness */
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .todoapp {
+        padding: 30px 20px 50px;
+        
+    }
+
+    .todoapp h1 {
+        font-size: 22px;
+    }
+
+    .row button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .todoapp {
+        padding: 20px 15px 40px;
+    }
+
+    .todoapp h1 {
+        font-size: 20px;
+    }
+
+    .row input {
+        font-size: 14px;
+        
+    }
+
+    .row button {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
+
+
+/*AShiqMe*/
+
+
